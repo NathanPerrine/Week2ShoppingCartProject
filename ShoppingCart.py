@@ -121,6 +121,7 @@ def main():
         elif user_input == 'reprice':
             reprice()
         elif user_input == "quit":
+            list_cart()
             break
         else:
             print("Unknown input, please try again.")
